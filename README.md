@@ -1,7 +1,7 @@
 # NoSQL: Workout-Tracker
 ![Project license badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
-The goal was to create create a workout tracker. This involved creating a Mongo database with a Mongoose schema and handling routes with Express. A consumer will reach their fitness goals quicker when they track their workout progress.
+The goal was to create a workout tracker. This involved creating a Mongo database with a Mongoose schema and handling routes with Express. A consumer will reach their fitness goals quicker when they track their workout progress.
 
 When the user loads the page, they are given the option to create a new workout, or continue with their last workout. The app allows the user to:
 * Add exercises to a previous workout plan.
