@@ -20,11 +20,8 @@ When the user loads the page, they are given the option to create a new workout,
 ## User Story
 ```
 As a user, I WANT to be able to view create and track daily workouts. 
-
 I WANT to be able to log multiple exercises in a workout on a given day. 
-
 I SHOULD also be able to track the name, type, weight, sets, reps, and duration of exercise. 
-
 IF the exercise is a cardio exercise, I SHOULD be able to track my distance traveled.
 ```
 
@@ -40,7 +37,7 @@ iv. Explore the app.
 ## Usage
 ```
 Technologies Used:
-NoSQL - MongoDB - Mongoose - Node.js - Express.js - JavaScript 
+NoSQL - MongoDB - Mongoose - Node.js - Express.js - JavaScript - Morgan - HTML - CSS - Bootstrap
 ```
 
 ## Contributing
