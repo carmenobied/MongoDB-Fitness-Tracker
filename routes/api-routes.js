@@ -1,7 +1,3 @@
-// * Add exercises to a previous workout plan.
-// * Add new exercises to a new workout plan.
-// * View multiple the combined weight of multiple exercises on the stats page.
-
 // ROUTES
 const router = require("express").Router();
 const mongoose = require("mongoose");
@@ -20,18 +16,6 @@ router.get("/api/workouts", (req, res) => {
       res.status(400).json(err);
     });
   });
-
-// range page
-router.get("/api/workouts/range", (req, res) => {
-  Workout.find({})
-  .then(workoutdb => {
-      res.json(workoutdb);
-  })
-    .catch(err => {
-      res.status(400).json(err);
-  });
-});
-
 
 router.post("/api/workouts", ({ body }, res) => {
   Workout.create(body)
@@ -61,6 +45,17 @@ router.put("/api/workouts/:id", (req, res) => {
     { $set: { exercises: [req.body] } }
   ).then((workoutdb) => {
     res.json(workoutdb);
+  });
+});
+
+// range page
+router.get("/api/workouts/range", (req, res) => {
+  Workout.find({})
+  .then(workoutdb => {
+      res.json(workoutdb);
+  })
+    .catch(err => {
+      res.status(400).json(err);
   });
 });
 
