@@ -31,7 +31,6 @@ i. Fork the Github repository.
 ii. Clone the forked repo into your local machine using gitbash/terminal to pull the project and data.
 iii. Run the command-lines to run the app functionality. You can also access the files and assets via Visual Studio to view the code. 
 iv. Explore the app.
-
 ```
 
 ## Usage
@@ -43,6 +42,13 @@ When the user loads the page, they are given the option to create a new workout,
 * Add exercises to a previous workout plan.
 * Add new exercises to a new workout plan.
 * View multiple the combined weight of multiple exercises on the stats page.
+
+Below are screenshots of the deployed application:
+![Fitness Tracker Home](/public/assets/images/FitnessTracker_index_home.png)
+
+![Fitness Tracker Exercise](/public/assets/images/FitnessTracker_exercise_add.png)
+
+![Fitness Tracker Stats](/public/assets/images/FitnessTracker_stats_dashboard.png)
 
 ## Contributing
 Pull requests are welcome. Please use the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md) and for major changes, please open an issue beforehand to discuss the changes.
